@@ -1,1 +1,1 @@
-  528  awk '{print $0}' data/adult.data 
+awk '// {print $0}' data/adult.data 

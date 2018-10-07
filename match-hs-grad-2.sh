@@ -1,1 +1,1 @@
-awk -F, '$4 ~"HS-grad" {print $3}' data/adult.data 
+awk -F, '$4 ~"HS-grad" {print $13}' data/adult.data 
