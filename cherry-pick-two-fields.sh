@@ -1,1 +1,1 @@
-awk -F, '{print $4, $13}' data/adult.data 
+awk -F, '{print $4, $13, $NF}' data/adult.data 
